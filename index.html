@@ -1,0 +1,35 @@
+	<!--マップコンテナ-->
+	<div id="map_canvas"></div>
+
+	<!--モーダルウィンドウ-->
+	<div id="infomation" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<form class="form-horizontal" role="form">
+
+					<div class="modal-header">
+						<h4></h4>
+					</div><!--//modal-header-->
+
+					<div class="modal-body">
+						<input type="hidden" id="lat" name="lat">
+						<input type="hidden" id="lng" name="lng">
+						<input type="hidden" id="address" name="address">
+						<textarea class="form-control" id="inputExpl" rows="3"></textarea>
+					</div><!--/modal-body-->
+
+					<div class="modal-footer">
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<button type="submit" class="btn btn-primary">登録</button>
+								<button class="btn btn-default" class="close" data-dismiss="modal" aria-hidden="treu">キャンセル</button>
+							</div>
+						</div>
+					</div><!--/modal-footer-->
+
+				</form>
+
+			</div><!--/modal-content-->
+		</div><!--/modal-dialog-->
+	</div><!--/modal-->
