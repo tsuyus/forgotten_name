@@ -13,7 +13,7 @@ $(function(){
 		//マップ初期設定
 		var mapOptions = {
 			zoom: 15,//倍率
-			center: new google.maps.LatLng(35.6813, 139.766),//マップの中心座標
+			center: new google.maps.LatLng(34.4610, 135.3791),//マップの中心座標
 			mapTypeId: google.maps.MapTypeId.ROADMAP//マップタイプ
 		}
 alert('OK');
