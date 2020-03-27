@@ -168,9 +168,9 @@ $(function(){
 		};
 
 		//ウェブストレージにセット
-		var markers = JSON.parse(storage.getItem('markers'));
-		markers ? markers.push(marker):markers = [marker];
-		storage.setItem('markers',JSON.stringify(markers));
+		//var markers = JSON.parse(storage.getItem('markers'));
+		//markers ? markers.push(marker):markers = [marker];
+		//storage.setItem('markers',JSON.stringify(markers));
 
 		//マーカーセット
 		setMarker(marker);
