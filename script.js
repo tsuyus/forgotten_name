@@ -16,7 +16,6 @@ $(function(){
 			center: new google.maps.LatLng(34.4610, 135.3791),//マップの中心座標
 			mapTypeId: google.maps.MapTypeId.ROADMAP//マップタイプ
 		}
-alert('OK');
 		//マップ生成
 		map = new google.maps.Map(document.getElementById("map_canvas"),mapOptions);
 
