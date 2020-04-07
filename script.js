@@ -58,7 +58,7 @@ $(function(){
 
 		if(storage.getItem('markers')){
 			//ローカルストレージに記録していたデータを取得
-			//var markers = JSON.parse(storage.getItem('markers'));
+			var markers = JSON.parse(storage.getItem('markers'));
 
 			//マーカーセット
 			for(var i=0,len=markers.length;i<len;i++){
