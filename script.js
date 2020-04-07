@@ -2,7 +2,7 @@ $(function(){
 
 	var map;
 	var geocoder;
-	//var storage = localStorage;
+	var storage = localStorage;
 	var currentInfo;
 
 	/*----------------------------------------*/
