@@ -13,9 +13,10 @@ $(function(){
 		//マップ初期設定
 		var mapOptions = {
 			zoom: 15,//倍率
-			center: new google.maps.LatLng(34.4610, 135.3791),//マップの中心座標
+			center: new google.maps.LatLng(35.6813, 139.766),//マップの中心座標
 			mapTypeId: google.maps.MapTypeId.ROADMAP//マップタイプ
 		}
+
 		//マップ生成
 		map = new google.maps.Map(document.getElementById("map_canvas"),mapOptions);
 
@@ -168,9 +169,9 @@ $(function(){
 		};
 
 		//ウェブストレージにセット
-		//var markers = JSON.parse(storage.getItem('markers'));
-		//markers ? markers.push(marker):markers = [marker];
-		//storage.setItem('markers',JSON.stringify(markers));
+		var markers = JSON.parse(storage.getItem('markers'));
+		markers ? markers.push(marker):markers = [marker];
+		storage.setItem('markers',JSON.stringify(markers));
 
 		//マーカーセット
 		setMarker(marker);
