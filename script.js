@@ -166,7 +166,6 @@ $(function(){
 			lat:parseFloat($('#lat').val()),
 			lng:parseFloat($('#lng').val()),
 			content:$('#inputExpl').val()
-			title:$('#inputExpl').val()
 		};
 
 		//ウェブストレージにセット
